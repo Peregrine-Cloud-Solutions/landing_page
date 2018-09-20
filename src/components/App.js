@@ -9,7 +9,10 @@ import AsyncComponent from '../hocs/AsyncComponent'
 
 const Navbar = AsyncComponent(() => import('./Navbar'));
 const Hero = AsyncComponent(() => import('./Hero'), { height: '680px' });
-const OurTeam = AsyncComponent(() => import('./OurTeam'));
+//const OurTeam = AsyncComponent(() => import('./OurTeam'));
+const About = AsyncComponent(() => import('./About'));
+const Services = AsyncComponent(() => import('./Services'));
+const Quote = AsyncComponent(() => import('./Quote'));
 const Footer = AsyncComponent(() => import('./Footer'));
 
 const HTML = document.documentElement
@@ -24,15 +27,14 @@ class App extends Component {
     }
   }
 
+  
   render() {
     return <div id="app" >
       <Navbar />
       <Hero />
-      {/* <About /> */}
-      {/* <Services /> */}
-      {/* <Contact /> */}
-      <OurTeam  />
-      {/* <SocialBrand /> */}
+      <About />
+      <Services />
+      <Quote />
       <Footer />
     </div>
   }

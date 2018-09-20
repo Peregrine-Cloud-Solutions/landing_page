@@ -11,16 +11,16 @@ const Hero = () => {
       <div className="container valign-wrapper jc-center">
         <div style={{ textShadow: '1px 1px black' }} className="valign center-align white-text">
           <h3  >
-            Cloud Migration Experts
+            Cloud Experts
           </h3>
 
           <p className="big">
-            Avoid the complications of cloud migration
+            Save money and scale seamlessly
             <br/>
-            Migrate your company's assets to the cloud quickly and safely
+            Build your company's assets on the cloud
           </p>
 
-          <a style={{ textShadow: '0px 0px' }} className="btn waves-light waves-effect m-r-16 blue lighten-1">
+          <a a href="#quote" style={{ textShadow: '0px 0px' }} className="btn waves-light waves-effect m-r-16 blue lighten-1">
             Get A Quote!
           </a>
         </div>

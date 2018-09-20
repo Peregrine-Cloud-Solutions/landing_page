@@ -1,13 +1,19 @@
 import React from 'react';
+import csa from '../img/csa-cert.png'
 
-const TeamMember = ({ props }) =>
+const TeamMember = ({ data }) =>
   <div className="team-member">
       <div className="image-wrapper center-align">
-        <img className="responsive-img" src={ props.image } style={{ maxHeight: "150px", maxWidth: "150px" }}/>
+        <div className="faces"><img className="responsive-img" src={ data.image } style={{ maxHeight: "150px", maxWidth: "150px" }}/></div>
       </div>
       <div className="content center-align">
-        <h5> { props.name } </h5>
-        <p style={{ fontStyle: `italic` }}> { props.title } </p>
+        <h5> { data.name } </h5>
+        <p style={{ fontStyle: `italic` }}> { data.title } </p>
+        { data.csa !== "test" &&
+        <a href = {data.csa} >
+        <img className="responsive-img" src={csa} style={{ maxHeight: "150px", maxWidth: "150px" }} /> 
+        </a>}
+       	<p style={{ fontStyle: `italic` }}> { data.email } </p>
       </div>
   </div>
 

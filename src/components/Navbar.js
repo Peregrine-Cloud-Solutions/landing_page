@@ -11,16 +11,13 @@ const Navbar = () => {
         </a>
         <ul id="mobile-demo" className="right hide-on-med-and-down">
           <li>
-            {/* <a href="#about">About Us</a> */}
+            <a href="#about">About Us</a> 
           </li>
           <li>
-            {/* <a href="#services">Services</a> */}
+            <a href="#services">Services</a> 
           </li>
           <li>
-            <a href="#our-team">Our Team</a>
-          </li>
-          <li>
-            {/* <a href="#contact">Contact</a> */}
+            <a href="#quote">Quote</a>
           </li>
         </ul>
       </div>
