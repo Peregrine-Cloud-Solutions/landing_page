@@ -8,7 +8,7 @@ const Services = () => {
           <div className="col m3"></div>
           <div className="col m6 center-align">
             <h2>Services</h2>
-            <p>We deliver high quality and low cost serverless application solutions as well DevOps services to help you move and deploy your existing applications in the Cloud.</p>
+          <p>We deliver high quality and low cost serverless application solutions as well as DevOps services to help you move and deploy your existing applications in the Cloud.</p>
           </div>
           <div className="col m3"></div>
         </div>

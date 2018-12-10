@@ -1,7 +1,7 @@
 import React from 'react';
 import clouds from '../img/clouds.jpg';
 
-const Hero = () => {
+const Hero = ({ openModal }) => {
   return (
     <section
       id="hero"
@@ -20,7 +20,7 @@ const Hero = () => {
             Build your company's assets on the cloud
           </p>
 
-          <a a href="#quote" style={{ textShadow: '0px 0px' }} className="btn waves-light waves-effect m-r-16 blue lighten-1">
+          <a onClick={openModal} style={{ textShadow: '0px 0px' }} className="btn waves-light waves-effect m-r-16 blue lighten-1">
             Get A Quote!
           </a>
         </div>
